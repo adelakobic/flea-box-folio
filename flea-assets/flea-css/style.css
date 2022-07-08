@@ -3,16 +3,18 @@
     --yell: rgb(218, 179, 79)
 }
 
+/* margin and padding setting for the page*/
 * {
     box-sizing:border-box;
     padding: 2px;
     margin: 2px;
 }
-
+/* styling fo the body including background colour*/
 body {
     font-family:'Georgia', Times New Roman, serif;
     font-size: 16px;
-    margin: 20;
+    margin: 30px;
+    padding: 10px;
     background-color:antiquewhite;
     color: rgb(113, 62, 18);
 }
