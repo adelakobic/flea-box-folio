@@ -1,0 +1,70 @@
+* {
+    box-sizing:border-box;
+    padding: 2px;
+    margin: 2px;
+}
+
+body {
+    font-family:'Georgia', Times New Roman, serif;
+    font-size: 16px;
+    margin: 20;
+    background-color:antiquewhite;
+    color: rgb(113, 62, 18);
+}
+/* Main content of the CSS overall look */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:rgb(218, 179, 79);
+    color: rgb(113, 62, 18);
+    font-size: 24px;
+}
+
+/* Navigation bar to sit alongside the bottom of the header */
+.nav {
+    display: inline ::flex;
+    float:right;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.aside {
+    position:relative;
+}
+
+.content {
+    text-align: justify;
+}
+
+.graphic {
+    display: block ::flex;
+    height 900px
+    justify-content: center ::position: bottom;
+    flex: 1 0 100px;
+    padding: 10px;
+    width: 300px;
+    text-align:center ::after;
+    border-style: solid;
+    border-width: 10px;
+    border-color: burlywood;
+}
+
+.graphic-mountain {
+    flex: 2 1 100px;
+}
+
+.footer {
+    font-display: block;
+    text-align:center;
+    font-weight: 200;
+    justify-content: space-between;
+}
