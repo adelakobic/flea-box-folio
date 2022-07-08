@@ -15,14 +15,9 @@
             <!-- Navigation bar which should link to the different sections on the page. -->
             <nav class="nav">
                 <ul>
-                    <li>
-                        <a href="#About Me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#My Work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#Contact Me">Contact Me</a>
+                    <li><a href="#About Me">About Me</a></li>
+                    <li><a href="#My Work">My Work</a></li>
+                    <li><a href="#Contact Me">Contact Me</a>
                     </li>
                 </ul>
             </nav>
@@ -31,12 +26,11 @@
         <!-- Aside with labelled sections: About me, Work and Contact Me  to help navigate sections of the folio and contacts -->
         <aside class="aside">
             <h2>About Me</h2>
-            <h2>My Work</h2>
-            <h2>Contact Me</h2>
         </aside>
+
         <!-- Portfolio in the main body of the page -->
-        <main class="content">
-            <section>
+        <main>
+            <section class="content">
                 <h2>Adela Kobic</h2>
                 <div></div> <!-- Avatar/ photo here of the owner of the portfolio. -->
                 <img src="./flea-assets/flea-images/avatar.jpg">
@@ -52,8 +46,12 @@
                 </p>
             </section>
 
+            <aside class="aside">
+                <h2>My Work</h2>
+            </aside>
+
             <section class="graphic"> <!-- Image of abstract mountain vector to be displayed in the box -->
-                <h3 id="card-header">Mountain Climbed</h3>
+                <h3>Mountain Climbed</h3>
                 <p>Project Management database and software</p>
                 <img src="./flea-assets/flea-images/colourful-mountains.jpg" alt="">
             </section>
@@ -61,27 +59,31 @@
             <section class="graphic"> <!-- Image of paper layer -->
                 <h3>Weather predictor</h3>
                 <p>Application for predicting weather</p>
-                <img src="./flea-assets/flea-images/3d-paper-killian.jpg" alt="Weather predictor">
+                <img id="pic" src="./flea-assets/flea-images/3d-paper-killian.jpg" alt="Weather predictor">
             </section>
 
             <section class="graphic"> <!-- Image of japanese style graphic to be displayed in the box -->
                 <h3>Oriental Museum</h3>
                 <p>Multimedia software</p>
-                <img src="./flea-assets/flea-images/geometric-wallpaper.jpg" alt="Japanese style graphic">
+                <img id="pic" src="./flea-assets/flea-images/geometric-wallpaper.jpg" alt="Japanese style graphic">
             </section>
 
             <section class="graphic"> <!-- Image of sea to be displayed in the box -->
                 <h3>Fish in the Sea</h3>
                 <p>Database software application</p>
-                <img src="./flea-assets/flea-images/summer-background-sea-water.jpg">
+                <img id="pic" src="./flea-assets/flea-images/summer-background-sea-water.jpg">
             </section>
 
             <section class="graphic"> <!-- Image of wave to be displayed in the box -->
                 <h3>Education Wave</h3>
                 <p>Educational software</p>
-                <img src="./flea-assets/flea-images/Background_with_line_wave_pattern_1.jpg">
+                <img id="pic" src="./flea-assets/flea-images/Background_with_line_wave_pattern_1.jpg">
             </section>
         </main>
+
+        <aside class="aside">
+            <h2>Contact Me</h2>
+        </aside>
 
         <footer class="footer">
             <h3>

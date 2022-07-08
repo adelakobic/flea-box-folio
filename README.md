@@ -1,11 +1,14 @@
 # flea-box-folio
-Module 2 creating a portfolio website from scratch, using a responsive layout with HTML and CSS. 
+
+## Description
+Module 2 asks us to creating a portfolio website from scratch, using a responsive layout with HTML and CSS. 
 
 ## Motivation
-This project was created to use advanced CSS skills alongside building a website from scratch. 
+This project was created to use advanced CSS skills alongside HTML. The objective being to build a website from scratch. 
 
 ## Build status
 * The starter code has been built from scratch by Adela Kobic (Coding Student). 
+* Code will need to be refactored at a later date to check for bugs.
 
 ## Code style
 * Standard HTML and CSS has been used for this project. 
@@ -24,10 +27,11 @@ This finished website should resemble the layout as shown in this image (images 
 [Screenshot of how the layout of the website should look.](./flea-assets/flea-images/layout.jpg)
 
 ## Problems encountered 
-* geting the navigation bar to sit horizontally below the header 'Flea Box Folio
-* geting the aside bar to sit alongside the body of the text and images
-* making the images fit the boxes after reducing their size, some are still too big for the box
+* geting the navigation bar to sit horizontally below the header 'Flea Box Folio'
+* creating buttns that link to each section of the page
 * ensuring the UI buttons scroll down to the relevant section of the page 
+* geting the aside bar to sit alongside the body of the text and images even after using 'aside' tags  - TEMPORARILY FIXED 8 July 2022 by placing the aside tags in beween each section but they do not sit comfortably. 
+* making the images fit the boxes after reducing their size, some are still too big for the box
 
 ## Changes made to the code 
 

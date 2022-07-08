@@ -1,3 +1,8 @@
+:root {
+    /* roots for header */
+    --yell: rgb(218, 179, 79)
+}
+
 * {
     box-sizing:border-box;
     padding: 2px;
@@ -21,9 +26,10 @@ main {
 /* Header styling */
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    background-color:rgb(218, 179, 79);
+    background-color: var(--yell); /* rgb(218, 179, 79);*/
     color: rgb(113, 62, 18);
     font-size: 24px;
 }
@@ -37,11 +43,14 @@ nav {
     position: relative;
 }
 
+/* Aside should line up with each section e.g. About me lines up with bio section, My work lines up with portfolio images and Contact me lines up wiht contact info at the bottom of page. */
 aside {
-    position:relative;
+    position: static;
 }
 
+/* Contectnt section displays the biography of developer */
 content {
+    position: absolute;
     text-align: justify;
     font-weight: 100;
     font-size: 16px;
@@ -51,11 +60,13 @@ content {
     color: cadetblue;
 }
 
+/* Selectors for how the individual images and labels should be displayed in a grid */ 
 .graphic {
     display: block ::flex;
     /*display: flex grid;*/
-    flex-direction: row ::before column;
-    height::content 900px
+    flex-direction: row;
+    flex-basis: 120px;
+    height::content 900px;
     flex: 1 0 100px;
     padding: 10px;
     width: 300px;
@@ -65,11 +76,13 @@ content {
     border-color: burlywood;
 }
 
-.card-header {
-    position:relative;
-    margin-top: -20px;
+/* selectors for the pictures to be set so each one displays evenly within the grid */
+.pic {
+    width: 200%;
+    min-width: 350px;
 }
 
+/* Footer to display content evenly along the bottom */
 footer {
     font-display: block;
     text-align:center;
