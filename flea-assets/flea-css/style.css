@@ -13,7 +13,7 @@
 body {
     font-family:'Georgia', Times New Roman, serif;
     font-size: 16px;
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
     background-color:antiquewhite;
     color: rgb(113, 62, 18);
@@ -38,41 +38,61 @@ main {
 
 /* Navigation bar to sit alongside the bottom of the header */
 nav {
-    display: inline: flex;
+    display: inline flex;
+    flex-wrap:wrap;
     float:right;
     font-family:'Georgia', Times, 'Times New Roman', serif;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     position: relative;
+}
+
+button {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(113, 62, 18);
+    padding: 10px;
+    text-transform: capitalize;
+    text-emphasis: bold;
+    font-size: 20px;
+    cursor: grab;
 }
 
 /* Aside should line up with each section e.g. About me lines up with bio section, My work lines up with portfolio images and Contact me lines up wiht contact info at the bottom of page. */
 aside {
     position: static;
+    padding-right: 10px;
+    border: 10px;
+    margin: 10px;
 }
 
-/* Contectnt section displays the biography of developer */
+/* Content section displays the biography of developer */
+/* I can't get the content section to sit on the right of the 'About Me' aside. */
 content {
     position: absolute;
     text-align: justify;
     font-weight: 100;
     font-size: 16px;
 }
+/* Why Fleabox - make it look different to explain my choice of page name */
 .why {
     font-size: 12px;
     color: cadetblue;
+    position: relative;
 }
 
 /* Selectors for how the individual images and labels should be displayed in a grid */ 
 .graphic {
-    display: block ::flex;
+    display: block flex;
     /*display: flex grid;*/
     flex-direction: row;
-    flex-basis: 120px;
-    height::content 900px;
+    flex-basis:auto 120px;
+    height:content 900px;
     flex: 1 0 100px;
     padding: 10px;
     width: 300px;
-    text-align:center ::after;
+    text-align:center after;
     border-style: solid;
     border-width: 10px;
     border-color: burlywood;
@@ -90,4 +110,5 @@ footer {
     text-align:center;
     font-weight: 200;
     justify-content: space-between;
+    position: relative;
 }

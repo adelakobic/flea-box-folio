@@ -28,7 +28,7 @@ This finished website should resemble the layout as shown in this image (images 
 
 ## Problems encountered 
 * geting the navigation bar to sit horizontally below the header 'Flea Box Folio'
-* creating buttns that link to each section of the page
+* creating buttns that link to each section of the page - PARTLY FIXED - Buttons created 9 July 2022, but the scrolling down hasnt worked. 
 * ensuring the UI buttons scroll down to the relevant section of the page 
 * geting the aside bar to sit alongside the body of the text and images even after using 'aside' tags  - TEMPORARILY FIXED 8 July 2022 by placing the aside tags in beween each section but they do not sit comfortably. 
 * making the images fit the boxes after reducing their size, some are still too big for the box
