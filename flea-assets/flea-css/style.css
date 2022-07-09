@@ -57,6 +57,7 @@ button {
     text-emphasis: bold;
     font-size: 20px;
     cursor: grab;
+    scroll-behavior: smooth;
 }
 
 /* Aside should line up with each section e.g. About me lines up with bio section, My work lines up with portfolio images and Contact me lines up wiht contact info at the bottom of page. */
