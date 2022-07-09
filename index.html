@@ -16,16 +16,17 @@
 
             <!-- Navigation bar which should link to the different sections on the page. -->
             <nav class="nav">
-                <ul>
+                <ul class="ul-links">
                     <li><a href="#me">About Me</a></li>
-                    <button onclick= "#">About Me</button>
+                    <!--<a href="me"><div>About Me</div></a>-->
+                    <!--<button><a href="#me"></a>About Me</button>-->
                     <!--<input type="button" onclick="document.getElementById('me')">-->
                     <li><a href="#work">My Work</a></li>
-                    <button onclick="#">My Work</button>
-                    <a id="work"></a>
+                    <!--<button onclick="#">My Work</button>-->
+                    <!--<a id="work"></a>-->
                     <!--<input type="button" onclick="document.getElementById('work')">-->
-                    <li><a href="#bot">Contact Me</a></li>
-                    <button onclick="#">Contact Me</button>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <!--<button onclick="#">Contact Me</button>-->
                 </ul>
             </nav>
         </header>
@@ -34,32 +35,36 @@
 
         </div>
 
-        <!-- Aside with labelled sections: About me, Work and Contact Me  to help navigate sections of the folio and contacts -->
-        <aside class="aside">
-            <h2>About Me</h2>
-        </aside>
+        <!-- Aside with labelled sections: About Me, Work and Contact Me  to help navigate sections of the folio and contacts -->
 
         <!-- Portfolio in the main body of the page -->
         <main>
             <section class="content">
-                <div id="me">
-                <h2>Adela Kobic</h2>
+                <aside class="aside">
+                <!-- Aside with labelled sections: About Me, Work and Contact Me  to help navigate sections of the folio and contacts -->
+                    
+                <h2>About Me</h2>
+        
+                    <div id="me">
+                    <!-- Avatar/ photo here of the owner of the portfolio. -->
+                    <img src="./flea-assets/flea-images/avatar.jpg">
+                    <h2>Adela Kobic</h2>
                 </div>
-                <div></div> <!-- Avatar/ photo here of the owner of the portfolio. -->
-                <img src="./flea-assets/flea-images/avatar.jpg">
-                <div></div>
-                <!-- Biography shor bio introducing the programmer -->
+            
+                <!-- Biography short bio introducing the programmer -->
                 <p>
                     Hello there! I'm Dela and I am a coding student on the Birmingham University Coding Bootcamp.
                 </p>
                 <p>
                     I am a career switcher and have 10 years of working in the Education sector and 5 years working in Social Care behind me.</p> 
-                    <p>I hope to use my new coding skills and experience in education to work in the are of safeguarding and keeping children safe online. Feel free to view some of my work below. 😊
+                    <p>I hope to use my new coding skills and experience in education to work in the are of safeguarding and keeping children safe online.</p> 
+                    <p>Please view some of my work below. 😊
                 </p>
                 <p class="why">
-                    Oh and you may be thinking 'Why Flea Box Portfolio?' Well I must admit I miss-read the word 'flex-box' the first time round. So Flea box it became.
+                    Oh and you may be thinking 'Why Flea Box Portfolio?' Well I must admit I miss-read the word 'flex-box' the first time round.🤦🏻‍♀️ So 'flea box' it became.
                 </p>
             </section>
+         </aside>
             <div>
 
             </div>
@@ -67,49 +72,50 @@
 
             <aside class="aside">
                 <h2>My Work</h2>
-            </aside>
+            <!--</aside>-->
 
             <section class="graphic"> <!-- Image of abstract mountain vector to be displayed in the box -->
                 <div id="#work">
                 <h3>Mountain Climbed</h3>
                 <p>Project Management database and software</p>
-                <img src="./flea-assets/flea-images/colourful-mountains.jpg" alt="">
+                <img class='main-pic' src="./flea-assets/flea-images/colourful-mountains.jpg" alt="Beautiful hills">
                 </div>
             </section>
+            </aside>
 
             <section class="graphic"> <!-- Image of paper layer -->
                 <h3>Weather predictor</h3>
                 <p>Application for predicting weather</p>
-                <img id="pic" src="./flea-assets/flea-images/3d-paper-killian.jpg" alt="Weather predictor">
+                <img class="pic" src="./flea-assets/flea-images/3d-paper-killian.jpg" alt="Weather predictor">
             </section>
 
             <section class="graphic"> <!-- Image of japanese style graphic to be displayed in the box -->
                 <h3>Oriental Museum</h3>
                 <p>Multimedia software</p>
-                <img id="pic" src="./flea-assets/flea-images/geometric-wallpaper.jpg" alt="Japanese style graphic">
+                <img class="pic" src="./flea-assets/flea-images/geometric-wallpaper.jpg" alt="Japanese style graphic">
             </section>
 
             <section class="graphic"> <!-- Image of sea to be displayed in the box -->
                 <h3>Fish in the Sea</h3>
                 <p>Database software application</p>
-                <img id="pic" src="./flea-assets/flea-images/summer-background-sea-water.jpg">
+                <img class="pic" src="./flea-assets/flea-images/summer-background-sea-water.jpg" alt="A blue sea">
             </section>
 
             <section class="graphic"> <!-- Image of wave to be displayed in the box -->
                 <h3>Education Wave</h3>
                 <p>Educational software</p>
-                <img id="pic" src="./flea-assets/flea-images/Background_with_line_wave_pattern_1.jpg">
+                <img class="pic" src="./flea-assets/flea-images/Background_with_line_wave_pattern_1.jpg" alt="Hand drawn wave">
             </section>
+        
         </main>
 
         <aside class="aside">
             <h2>Contact Me</h2>
         </aside>
-        <div id="#bot"></div>
 
         <!-- Footer to include contact details and social media links -->
-
-        <footer class="footer">
+        <!--<div id="#contact"></div>-->
+        <footer class="footer" id="#contact">
             <h3>
                 <contact> Tel: +44 7957780803</contact>
                 <email alojzamauder@yahoo.co.uk>alojzamauder@yahoo.co.uk</email>
