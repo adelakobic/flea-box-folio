@@ -32,7 +32,7 @@ main {
     justify-content: center;
     padding: 16px;
     background-color: var(--yell); /* rgb(218, 179, 79);*/
-    color: rgba(57, 30, 6, 0.986);
+    color: rgb(113, 62, 18);
     font-size: 46px;
     text-align:justify;
 }
@@ -41,13 +41,11 @@ main {
 nav {
     display: inline flex;
     flex-wrap:wrap;
-    /*float:right;*/
     font-family:'Georgia', Times, 'Times New Roman', serif;
-    /*padding-bottom: 10px;
-    padding-top: 10px;
-    position:relative;*/
+    list-style: none;
 }
 
+/* Styling out the scroll links on navigation to make it look less like bullet points and more like buttons */
 .ul-links {
     background-color: blanchedalmond;
     border-radius: 5px;
@@ -57,23 +55,18 @@ nav {
     text-emphasis: bold;
     font-size: 20px;
     cursor: grab;
+    list-style-type: none;
 }
 
 /* Aside should line up with each section e.g. About me lines up with bio section, My work lines up with portfolio images and Contact me lines up wiht contact info at the bottom of page. */
-/*aside {
-    position: static;
-    padding-right: 10px;
-    border: 10px;
-    margin: 10px;
-}*/
 aside {
     display: flex;
 }
 
 /* Content section displays the biography of developer */
-/* I can't get the content section to sit on the right of the 'About Me' aside. */
 content {
-    /*position: absolute;*/
+    display: flex;
+    flex-wrap: wrap;
     text-align: justify;
     font-weight: 100;
     font-size: 16px;
@@ -82,17 +75,13 @@ content {
 .why {
     font-size: 12px;
     color: cadetblue;
-    /*position: relative;*/
 }
 
 /* Selectors for how the individual images and labels should be displayed in a grid */ 
 .graphic {
     display: flex;
-    /*display: flex grid;*/
     flex-direction: column;
-    /*flex-basis:auto 120px;*/
     height: 300px;
-    /*flex: 1 0 100px;*/
     padding: 2px;
     width: 350px;
     text-align:center;
@@ -107,6 +96,7 @@ content {
     height: 230px;
 }
 
+/* Mountain pic - different styling so it doesnt push the rest of the pictures out of their frames. */
 .main-pic{
     width: 330px;
     height: 230px;

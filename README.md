@@ -1,14 +1,14 @@
 # flea-box-folio
 
 ## Description
-Module 2 asks us to creating a portfolio website from scratch, using a responsive layout with HTML and CSS. 
+Module 2 asks us to creating a portfolio website from scratch, using a responsive layout with HTML and CSS using flex-box. 
 
 ## Motivation
-This project was created to use advanced CSS skills alongside HTML. The objective being to build a website from scratch. 
+This project was created to use advanced CSS skills alongside HTML. The objective was to build a portfolio website from scratch. The folio should scroll to each section when required. 
 
 ## Build status
 * The starter code has been built from scratch by Adela Kobic (Coding Student). 
-* Code will need to be refactored at a later date to check for bugs.
+* Code will need to be refactored at a later date to check for bugs, further adjustments and adding in proper links to the dummy ones.
 
 ## Code style
 * Standard HTML and CSS has been used for this project. 
@@ -24,21 +24,22 @@ The language for the website is written in US English. (USA English)
 
 ## Assets
 This finished website should resemble the layout as shown in this image (images and titles may differ.)
-[Screenshot of how the layout of the website should look.](./flea-assets/flea-images/layout.jpg)
+![Screenshot of intended layout forwebsite.](./flea-assets/flea-images/layout.jpg)
+
+Actual preview of Flea Box Folio. 
+![Preview of Flea Box Folio.](./flea-assets/flea-images/flea-preview.png)
 
 ## Problems encountered 
 * geting the navigation bar to sit horizontally below the header 'Flea Box Folio'
-* creating buttns that link to each section of the page - PARTLY FIXED - Buttons created 9 July 2022, but the scrolling down hasnt worked. 
-* ensuring the UI buttons scroll down to the relevant section of the page - FIXED 9 July 2022, but the Contact 'scroll down' button doesn't work as it should. This has now made the navigation look messy. 
+* creating buttons that link to each section of the page - PARTLY FIXED - Buttons created 9 July 2022, but the scrolling down hasnt worked for all.
+* ensuring the UI buttons scroll down to the relevant section of the page - FIXED 9 July 2022, but the Work and Contact 'scroll down' button doesn't work as it should. 
 * geting the aside bar to sit alongside the body of the text and images even after using 'aside' tags  - TEMPORARILY FIXED 8 July 2022 by placing the aside tags in beween each section but they do not sit comfortably. 
-* making the images fit the boxes after reducing their size, some are still too big for the box
+* making the first image larger than all the others - issues with the grid/ flex-box.
 
 ## Changes made to the code 
 
 ## Credits
 * Picture credits as follows: 
-    * Rawpixel. (2022, July 6). Freepik.com. <a href="https://www.freepik.com/vectors/wave-illustration">Wave illustration vector created by rawpixel.com - www.freepik.com</a>
-    (header wavy line background)
     * Pikisuperstar. (2022, July 6) Freepik.com. <a href="https://www.freepik.com/vectors/abstract-mountain">Abstract mountain vector created by pikisuperstar - www.freepik.com</a>
     (mountain picture) 
     * Killian, G. (2022, July 6). Freepik.com. <a href="https://www.freepik.com/vectors/paper-layer">Paper layer vector created by GarryKillian - www.freepik.com</a>      
@@ -47,6 +48,7 @@ This finished website should resemble the layout as shown in this image (images 
     (Japanese style graphic)
     * Kdekiara. (2022, July 6) Freepik.com. <a href="https://www.freepik.com/photos/sea-texture">Sea texture photo created by kdekiara - www.freepik.com</a>    
     (folio image sea)
+    * Svstudio. (2022, July 6) Freepik.com. <a href="https://www.freepik.com/free-vector/japanese-wave-line-art-landscape-background-abstract-mountain-banner-design-pattern-vector-geometric-poster_23190973.htm">Japanese wave line art landscape background. Abstract mountain banner design pattern. Vector geometric poster</a>
 
 ## Licence
 * MIT licence 
