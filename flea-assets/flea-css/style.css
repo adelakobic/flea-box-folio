@@ -3,13 +3,13 @@
     --yell: rgb(218, 179, 79)
 }
 
-/* margin and padding setting for the page*/
+/* margin and padding setting for the page */
 * {
     box-sizing:border-box;
     padding: 2px;
     margin: 2px;
 }
-/* styling fo the body including background colour*/
+/* styling for the body including background colour */
 body {
     font-family:'Georgia', Times New Roman, serif;
     font-size: 16px;
@@ -58,7 +58,7 @@ nav {
     list-style-type: none;
 }
 
-/* Aside should line up with each section e.g. About me lines up with bio section, My work lines up with portfolio images and Contact me lines up wiht contact info at the bottom of page. */
+/* Aside should line up with each section e.g. 'About me' lines up with bio section, 'My work' lines up with portfolio images and 'Contact me' lines up with contact info at the bottom of page. */
 aside {
     display: flex;
 }
@@ -90,17 +90,16 @@ content {
     border-color: burlywood;
 }
 
-/* selectors for the pictures to be set so each one displays evenly within the grid */
+/* selectors for the pictures to be set so each one displays evenly within the grid - dont mess with them once set!! */
 .pic {
     width: 330px;
     height: 230px;
 }
 
-/* Mountain pic - different styling so it doesnt push the rest of the pictures out of their frames. */
+/* Mountain pic - different styling so it doesnt push the rest of the pictures out of their frames. - Dont mess with it once set!! */
 .main-pic{
     width: 330px;
     height: 230px;
-
 }
 
 /* Footer to display content evenly along the bottom */
